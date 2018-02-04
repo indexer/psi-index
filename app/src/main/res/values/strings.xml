@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">
+Pollutant Standards Index (PSI)
+</string>
+    <string name="google_map">AIzaSyAKGNegmnDplEpfjzUAlohFvkhKwCrLPuU</string>
+    <string name="readings">readings:</string>
+    <string name="nationwide">National Wide Data :</string>
+</resources>
