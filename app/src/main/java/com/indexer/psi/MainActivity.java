@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     ArrayList<RegionMetadatum> locationList = new ArrayList<>();
     LinkedHashMap westlhm = new LinkedHashMap<String, AtomicReference<StringBuilder>>();
 
+    SupportMapFragment mapFragment;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             getSupportActionBar().setTitle(R.string.app_name);
         }
 
-        SupportMapFragment mapFragment =
+        mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
